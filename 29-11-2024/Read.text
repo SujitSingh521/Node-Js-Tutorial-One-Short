@@ -1,0 +1,56 @@
+1. Vs code in Install :->  JellyFish Theme 
+2. Php  (ii).danjo  (iii).  Flask
+3. Cheack on Terminal :- (i). node -v     (ii).  npm -V
+4. vs code  Terminal in Install  :- npm i express
+
+
+
+
+
+
+
+=================================================================================>
+
+First Program :->  index.js :-
+          
+
+console.log("Hello World Today i am learn Node js");
+
+
+
+
+
+
+
+
+
+
+First and Second Program import index.js  and export  server.js :->
+=================================================================================>
+
+1. First Program :->  index.js :-
+=================
+
+// Importing the Sujit object from the server module  
+const Sujit = require("./server");  
+
+// Print a greeting message to the console  
+console.log("Hello World! Today I am learning Node.js.");  
+
+// Print the Sujit object, indicating its origin  
+console.log("I made Indian:", Sujit);
+
+
+2. Second  Program :-> server.js :-
+=================
+
+
+// Corrected module definition  
+const Sujit = {  
+    Name: "Sujit Kumar Singh",  
+    Favorite: "Self Love ❤️",  
+    Developer: true  
+};  
+
+// Exporting the Sujit object  
+module.exports = Sujit;
